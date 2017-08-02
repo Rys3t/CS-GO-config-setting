@@ -1,0 +1,31 @@
+-tickrate 128
+
+//顯示
+sv_showimpacts 1                   	 //顯示子彈軌跡
+sv_grenade_trajectory 1            	 //開啟手榴彈軌跡
+
+//sever設定
+ff_damage_reduction_bullets X        //打隊友的子彈傷害是一般傷害的X倍
+deathmatch 1                         //開dm模式,一個人一組，把其它人解決掉
+pauseble 0                           //可以戰鬥中按暫停(Pause鍵,在F12鍵的右邊第三顆)
+lambert -1.01                        //看到人們在黑暗中發亮
+sv_autobunnyhopping 1              	 //自動bhop
+sv_aim 0                             //自動瞄準頭部
+sv_infinite_ammo 1                	 //無限子彈，2為無線彈夾
+mp_freezetime x                      //每一場開始前的購物靜止秒數
+mp_autoteambalance 0             	 //自動隊伍平衡關閉
+mp_solid_teammates 1              	 //開啟人物碰撞
+mp_roundtime 5                       //回合時間
+mp_maxrounds 15                      //最大回合數
+mp_autoteambalance 1                 //取消隊伍自動平衡
+
+//購買
+mp_buy_anywhere 1                 	 //任何地區皆可購買
+mp_buytime 1000                 	 //10000秒購買時間
+mp_maxmoney               	         //最大金錢量
+mp_startmoney             		     //開場金錢量
+
+//加速度
+sv_airaccelerate 1000              	 //空中加速
+host_timescale 1                   	 //遊戲速度
+sv_gravity 800                       //重力
